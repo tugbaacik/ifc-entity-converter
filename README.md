@@ -1,4 +1,4 @@
-# IFC Entity Refactorer
+# IFC Entity Converter
 
 ## 📘 Overview
 
@@ -22,6 +22,7 @@ Developed using the engine_web-ifc(https://github.com/ThatOpen/engine_web-ifc) f
 - 💾 **Exports enriched IFC file**: Final output is saved as `modified.ifc` for immediate use in downstream BIM tools.
 - 📏 **Infrastructure-ready modeling**: Helps prepare data for bridge.
 
+
 ## 🧰 Tech Stack
 
 | Technology    | Description                                      |
@@ -29,24 +30,16 @@ Developed using the engine_web-ifc(https://github.com/ThatOpen/engine_web-ifc) f
 | **Node.js**   | JavaScript runtime for backend processing        |
 | **web-ifc**   | Lightweight IFC engine for reading/writing IFC   |
 | **IFC4 Schema** | OpenBIM data standard by buildingSMART         |
+
           
-
-## 🗂️ Application Structure
-
-```bash
-.
-│                  
-├── nodejs/
-│   └── examples
-│     └──  index.js # Main logic for model transformation
-├── example.ifc               # Input IFC file containing proxies
-└── modified.ifc            # Output model after semantic enrichment
-
+---
 ## 🖼️ Screenshots
 
 | Before refactoring | After refactoring|
 |-------------------|-----------------------|
 | ![before](screenshots/before.png) | ![after](screenshots/after.png) |
+
+---
 
 📚 References
 
@@ -55,3 +48,5 @@ IFC Schema: https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/a
 IFCJS Library (engine_web-ifc): https://github.com/ThatOpen/engine_web-ifc
 
 buildingSMART International: https://www.buildingsmart.org
+
+---
