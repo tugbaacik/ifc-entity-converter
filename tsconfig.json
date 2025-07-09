@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": ["es6", "dom", "es2017"],
+    "target": "es6",
+    "outDir": "dist",
+    "moduleResolution" : "node",
+    "declaration": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "strict": true,                                
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,                           
+    "strictFunctionTypes": true,                 
+    "strictPropertyInitialization": true,        
+    "alwaysStrict": true              
+  },
+  "files": [
+    "src/ts/web-ifc-api.ts"
+  ]
+}

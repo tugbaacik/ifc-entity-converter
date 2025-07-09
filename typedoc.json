@@ -1,0 +1,29 @@
+{
+	"sidebarLinks": {
+	},
+	 "entryPoints": ["./src/ts/ifc-schema.ts","./src/ts/web-ifc-api.ts","./src/ts/helpers/properties.ts","./src/ts/helpers/log.ts"],
+	 "navigationLinks":{
+	 	"TOC":"https://docs.thatopen.com/intro",
+	 	"web-ifc":"https://github.com/ThatOpen/engine_web-ifc",
+	 	"demo":"https://thatopen.github.io/engine_web-ifc/demo",
+	 	"example models":"https://thatopen.github.io/engine_web-ifc/examples"
+	 },
+	 "titleLink":"https://github.com/ThatOpen/engine_web-ifc",
+	 "name":"That Open Engine | web-ifc",
+	 "excludePrivate":true,
+	 "excludeProtected":true,
+	 "excludeExternals":true,
+	 "visibilityFilters": {
+        "protected": false,
+        "private": false,
+        "external": false
+    },
+    "readme":"README.md",
+    "excludeNotDocumented": true,
+    "excludeNotDocumentedKinds": [
+        "Reference"
+    ],
+    "sidebarLinks": {
+        "Main Web-IFC API": "classes/web_ifc.IfcAPI.html"
+    }
+}
