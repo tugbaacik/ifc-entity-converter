@@ -10,7 +10,7 @@ This project automates the transformation of those generic components into meani
 - Metadata and ownership history remain intact
 - The resulting IFC model becomes more interoperable and readable
 
-This is particularly beneficial in infrastructure projects governed by standards like **AASHTO**, **buildingSMART IFC**.
+This is particularly beneficial in infrastructure projects governed by standards like **AASHTO**, **buildingSMART IFC** and **BIM Applications**.
 
 Developed using the engine_web-ifc(https://github.com/ThatOpen/engine_web-ifc) for efficient manipulation of IFC models directly in Node.js.
 
